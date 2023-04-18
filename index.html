@@ -4,12 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Homework Project</title>
   </head>
   <body>
     <!--HEADER-->
-    <header>
-      <h3>WebStudio</h3>
+    <header class="nav-bar">
+      <h3 class="logo"><span>Web</span>Studio</h3>
       <nav>
         <ul>
           <li><a href="studio.html"></a>Studio</li>
@@ -17,9 +18,12 @@
           <li><a href="contacts.html"></a>Contacts</li>
         </ul>
       </nav>
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <a href="mailto:info@devstudio.com">info@devstudio.com</a><br />
       <a href="tel:+12127724150">+1 212-772-4150</a>
-      <h1>EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
+      <h1 class="title">
+        EFFECTIVE SOLUTIONS FOR <br />
+        YOUR BUSINESS
+      </h1>
       <button>Request our service</button>
     </header>
     <!--SECTION MAIN-->
@@ -64,7 +68,7 @@
         />
         <h4>
           Christopher Walker <br />
-          Product Designer
+          <span class="description">Product Designer</span>
         </h4>
 
         <img
@@ -75,7 +79,7 @@
         />
         <h4>
           Kylie Evans <br />
-          Frontend Developer
+          <span class="description">Frontend Developer</span>
         </h4>
         <img
           src="images/marketing.jpg"
@@ -85,7 +89,7 @@
         />
         <h4>
           Ryan Harris <br />
-          Marketing
+          <span class="description">Marketing</span>
         </h4>
         <img
           src="images/UI Designer.jpg"
@@ -93,14 +97,18 @@
           width="400px"
           height="400px"
         />
-        <h4>Tyler Moore <br />UI Designer</h4>
+        <h4>Tyler Moore <br /><span class="description">UI Designer</span></h4>
       </section>
     </main>
     <!--SECTION FOOTER-->
     <footer>
-      <h3>WebStudio</h3>
-      <h4>695 Park Ave, NY 10065, USA</h4>
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <h3 class="logo">WebStudio</h3>
+      <h4>
+        695 Park Ave, NY 10065 <br />
+        USA
+      </h4>
+      <br />
+      <a href="mailto:info@devstudio.com">info@devstudio.com</a><br />
       <a href="tel:+12127724150">+1 212-772-4150</a>
     </footer>
   </body>
