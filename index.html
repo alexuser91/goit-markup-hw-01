@@ -24,8 +24,26 @@
           </ul>
         </nav>
         <div class="nav-bar-right">
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-          <a href="tel:+12127724150" class="phone">+1 212-772-4150</a>
+          <div class="nav-bar-right-mail">
+            <div class="mail-right">
+              <svg class="icon-mail">
+                <use href="./icons/symbol-defs.svg#icon-mail"></use>
+              </svg>
+            </div>
+            <div>
+              <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </div>
+          </div>
+          <div class="nav-bar-right-phone">
+            <div>
+              <svg class="icon-mail">
+                <use href="./icons/symbol-defs.svg#icon-phone"></use>
+              </svg>
+            </div>
+            <div class="right-phone">
+              <a href="tel:+12127724150" class="phone">+1 212-772-4150</a>
+            </div>
+          </div>
         </div>
       </header>
     </div>
@@ -42,6 +60,14 @@
         <div class="main-description">
           <ul>
             <li>
+              <div class="icons-description">
+                <div>
+                  <svg class="icon">
+                    <use href="./icons/symbol-defs.svg#icon-antenna"></use>
+                  </svg>
+                </div>
+              </div>
+
               <h4>ATTENTION TO DETAILS</h4>
               <p>
                 We go into all the details and processes <br />
@@ -50,6 +76,14 @@
               </p>
             </li>
             <li>
+              <div class="icons-description">
+                <div>
+                  <svg class="icon">
+                    <use href="./icons/symbol-defs.svg#icon-clock"></use>
+                  </svg>
+                </div>
+              </div>
+
               <h4>PUNCTUALITY</h4>
               <p>
                 With us, you can feel safe and secure. <br />
@@ -58,6 +92,14 @@
               </p>
             </li>
             <li>
+              <div class="icons-description">
+                <div>
+                  <svg class="icon">
+                    <use href="./icons/symbol-defs.svg#icon-diagram"></use>
+                  </svg>
+                </div>
+              </div>
+
               <h4>PLANNING</h4>
               <p>
                 You will be able to observe and <br />
@@ -66,6 +108,13 @@
               </p>
             </li>
             <li>
+              <div class="icons-description">
+                <div>
+                  <svg class="icon">
+                    <use href="./icons/symbol-defs.svg#icon-astronaut"></use>
+                  </svg>
+                </div>
+              </div>
               <h4>MODERN TECHNOLOGIES</h4>
               <p>
                 We use innovative tools to solve <br />
@@ -84,48 +133,249 @@
             <li><img src="images/main-img2.jpg" alt="Tertiary image" /></li>
           </ul>
         </div>
+        <!-- Section Our Team -->
         <div class="our-team">
           <h2>Our Team</h2>
-          <ul class="our-team-flex">
-            <li>
+          <div class="our-team-flex">
+            <div class="card">
               <img
+                class="card-images"
                 src="images/product-designer.jpg"
                 alt="a boy product-designer"
-                width="250px"
-                height="250px"
               />
-              <span class="team">Christopher Walker</span><br />
-              <em class="description">Product Designer</em>
-            </li>
-            <li>
+              <h4 class="card-heading">
+                Christopher Walker<br />
+                <span class="description">Product Designer</span>
+              </h4>
+              <div class="icons-list">
+                <a
+                  href="http://instagram.com"
+                  class="icon"
+                  aria-label="instagram"
+                >
+                  <svg>
+                    <use href="./icons/symbol-defs.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+                <a href="http://twitter.com" class="icon" aria-label="twitter">
+                  <svg>
+                    <use href="./icons/symbol-defs.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+                <a
+                  href="http://facebook.com"
+                  class="icon"
+                  aria-label="facebook"
+                >
+                  <svg>
+                    <use href="./icons/symbol-defs.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+                <a
+                  href="http://linkedin.com"
+                  class="icon"
+                  aria-label="linkedin"
+                >
+                  <svg>
+                    <use href="./icons/symbol-defs.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="card">
               <img
+                class="card-images"
                 src="images/frontent-developer.jpg"
-                alt=" a girl frontent-developer"
-                width="250px"
-                height="250px"
+                alt="a boy product-designer"
               />
-              <span class="team">Kylie Evans</span><br />
-              <em class="description">Frontend Developer</em>
-            </li>
-            <li>
+              <h4 class="card-heading">
+                Kylie Evans <br />
+                <span class="description">Frontend Developer</span>
+              </h4>
+              <div class="icons-list">
+                <a
+                  href="http://instagram.com"
+                  class="icon"
+                  aria-label="instagram"
+                >
+                  <svg>
+                    <use href="./icons/symbol-defs.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+                <a href="http://twitter.com" class="icon" aria-label="twitter">
+                  <svg>
+                    <use href="./icons/symbol-defs.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+                <a
+                  href="http://facebook.com"
+                  class="icon"
+                  aria-label="facebook"
+                >
+                  <svg>
+                    <use href="./icons/symbol-defs.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+                <a
+                  href="http://linkedin.com"
+                  class="icon"
+                  aria-label="linkedin"
+                >
+                  <svg>
+                    <use href="./icons/symbol-defs.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="card">
               <img
+                class="card-images"
                 src="images/marketing.jpg"
-                alt="a boy marketing"
-                width="250px"
-                height="250px"
+                alt="a boy product-designer"
               />
-              <span class="team"> Ryan Harris</span><br />
-              <em class="description">Marketing</em>
+              <h4 class="card-heading">
+                Ryan Harris<br />
+                <span class="description">Marketing</span>
+              </h4>
+              <div class="icons-list">
+                <a
+                  href="http://instagram.com"
+                  class="icon"
+                  aria-label="instagram"
+                >
+                  <svg>
+                    <use href="./icons/symbol-defs.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+                <a href="http://twitter.com" class="icon" aria-label="twitter">
+                  <svg>
+                    <use href="./icons/symbol-defs.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+                <a
+                  href="http://facebook.com"
+                  class="icon"
+                  aria-label="facebook"
+                >
+                  <svg>
+                    <use href="./icons/symbol-defs.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+                <a
+                  href="http://linkedin.com"
+                  class="icon"
+                  aria-label="linkedin"
+                >
+                  <svg>
+                    <use href="./icons/symbol-defs.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                class="card-images"
+                src="images/UI Designer.jpg"
+                alt="a boy product-designer"
+              />
+              <h4 class="card-heading">
+                Tyler Moore<br />
+                <span class="description">UI Designer</span>
+              </h4>
+              <div class="icons-list">
+                <a
+                  href="http://instagram.com"
+                  class="icon"
+                  aria-label="instagram"
+                >
+                  <svg>
+                    <use href="./icons/symbol-defs.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+                <a href="http://twitter.com" class="icon" aria-label="twitter">
+                  <svg>
+                    <use href="./icons/symbol-defs.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+                <a
+                  href="http://facebook.com"
+                  class="icon"
+                  aria-label="facebook"
+                >
+                  <svg>
+                    <use href="./icons/symbol-defs.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+                <a
+                  href="http://linkedin.com"
+                  class="icon"
+                  aria-label="linkedin"
+                >
+                  <svg>
+                    <use href="./icons/symbol-defs.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Section Regular Customer -->
+        <div class="regular-customers">
+          <h2>Regular Customers</h2>
+          <ul>
+            <li>
+              <div class="icon-regular-customers">
+                <div>
+                  <svg class="icon-customers">
+                    <use href="./icons/symbol-defs.svg#icon-logo"></use>
+                  </svg>
+                </div>
+              </div>
             </li>
             <li>
-              <img
-                src="images/UI Designer.jpg"
-                alt="a boy UI Designer"
-                width="250px"
-                height="250px"
-              />
-              <span class="team">Tyler Moore</span><br />
-              <em class="description">UI Designer</em>
+              <div class="icon-regular-customers">
+                <div>
+                  <svg class="icon-customers">
+                    <use href="./icons/symbol-defs.svg#icon-logo-1"></use>
+                  </svg>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="icon-regular-customers">
+                <div>
+                  <svg class="icon-customers">
+                    <use href="./icons/symbol-defs.svg#icon-logo-2"></use>
+                  </svg>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="icon-regular-customers">
+                <div>
+                  <svg class="icon-customers">
+                    <use href="./icons/symbol-defs.svg#icon-logo-3"></use>
+                  </svg>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="icon-regular-customers">
+                <div>
+                  <svg class="icon-customers">
+                    <use href="./icons/symbol-defs.svg#icon-logo-4"></use>
+                  </svg>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="icon-regular-customers">
+                <div>
+                  <svg class="icon-customers">
+                    <use href="./icons/symbol-defs.svg#icon-logo-5"></use>
+                  </svg>
+                </div>
+              </div>
             </li>
           </ul>
         </div>
@@ -134,17 +384,44 @@
     <!--SECTION FOOTER-->
     <div class="container">
       <footer class="footer">
-        <h3 class="logo">
-          <span class="web-studio">Web</span>
-          <span class="studio-footer">Studio</span>
-        </h3>
-        <h4 class="adress">
-          695 Park Ave, NY 10065 <br />
-          USA
-        </h4>
-        <br />
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a><br />
-        <a href="tel:+12127724150">+1 212-772-4150</a>
+        <div class="adress-footer">
+          <h3 class="logo">
+            <span class="web-studio">Web</span>
+            <span class="studio-footer">Studio</span>
+          </h3>
+          <h4 class="adress">
+            695 Park Ave, NY 10065 <br />
+            USA
+          </h4>
+          <br />
+          <a href="mailto:info@devstudio.com">info@devstudio.com</a><br />
+          <a href="tel:+12127724150">+1 212-772-4150</a>
+        </div>
+        <div class="social">
+          <h4>Find us on</h4>
+          <div class="icons-list-footer">
+            <a href="http://instagram.com" class="icon" aria-label="instagram">
+              <svg>
+                <use href="./icons/symbol-defs.svg#icon-instagram"></use>
+              </svg>
+            </a>
+            <a href="http://twitter.com" class="icon" aria-label="twitter">
+              <svg>
+                <use href="./icons/symbol-defs.svg#icon-twitter"></use>
+              </svg>
+            </a>
+            <a href="http://facebook.com" class="icon" aria-label="facebook">
+              <svg>
+                <use href="./icons/symbol-defs.svg#icon-facebook"></use>
+              </svg>
+            </a>
+            <a href="http://linkedin.com" class="icon" aria-label="linkedin">
+              <svg>
+                <use href="./icons/symbol-defs.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
       </footer>
     </div>
   </body>
